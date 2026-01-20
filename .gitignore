@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# SSH / private keys
+serverkey
+serverkey.pub
+*.pem
+*.key
+
+# AWS CLI installer zip
+awscliv2.zip
+
+# OS / Editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
